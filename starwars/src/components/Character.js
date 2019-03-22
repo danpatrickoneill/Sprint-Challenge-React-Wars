@@ -1,10 +1,11 @@
 import React from "react";
 
 const Character = props => {
-  const usefulKeys = Object.keys(props.char).slice(0, 7);
+  const usefulKeys = Object.keys(props.char).slice(1, 7);
   console.log(props.char.name);
   return (
-    <ul className="character">
+    <ul className="Character">
+      <h2>{props.char.name}</h2>
       {usefulKeys.map(key => (
         <li>
           {key}: {props.char[key]}

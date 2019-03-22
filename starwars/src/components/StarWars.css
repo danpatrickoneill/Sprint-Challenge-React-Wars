@@ -1,0 +1,25 @@
+.CharacterList {
+  list-style-position: inside;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Character {
+  width: 25%;
+  min-width: 300px;
+  /* border: gold 5px solid; */
+  text-align: left;
+  padding: 1%;
+  margin: 1%;
+}
+
+.Character > h2 {
+  font-size: 3.2rem;
+  text-decoration: underline;
+}
+
+.Character li {
+  color: whitesmoke;
+  font-size: 2rem;
+}
