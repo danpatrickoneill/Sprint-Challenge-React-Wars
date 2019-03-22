@@ -8,7 +8,8 @@ const Character = props => {
       <h2>{props.char.name}</h2>
       {usefulKeys.map(key => (
         <li>
-          {key}: {props.char[key]}
+          {/* Cannot yet find a way to put space between these two */}
+          {key}: &nbsp; {props.char[key]}
         </li>
       ))}
     </ul>

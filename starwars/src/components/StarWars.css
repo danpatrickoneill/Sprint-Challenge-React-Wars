@@ -1,5 +1,4 @@
 .CharacterList {
-  list-style-position: inside;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -12,9 +11,14 @@
   text-align: left;
   padding: 1%;
   margin: 1%;
+  list-style-position: inside;
+  list-style-type: square;
+  list-style-image: url("../millenium-bullet-20x20.jpg");
 }
 
-.Character > h2 {
+.Character h2 {
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
   font-size: 3.2rem;
   text-decoration: underline;
 }
