@@ -13,7 +13,7 @@
   margin: 1%;
   list-style-position: inside;
   list-style-type: square;
-  list-style-image: url("../millenium-bullet-20x20.jpg");
+  /* list-style-image: url("../millenium-bullet-20x20.jpg"); */
 }
 
 .Character h2 {
